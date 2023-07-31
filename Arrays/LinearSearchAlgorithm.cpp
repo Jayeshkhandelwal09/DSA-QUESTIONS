@@ -11,10 +11,8 @@ int main()
     cin >> key;
     bool flag = 0;
 
-    for (int i = 0; i < size; i++)
-    {
-        if (arr[i] == key)
-        {
+    for (int i = 0; i < size; i++){
+        if (arr[i] == key){
             flag = 1;
         }
     }
