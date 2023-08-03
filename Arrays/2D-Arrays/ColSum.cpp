@@ -6,7 +6,7 @@ using namespace std;
 void PrintColWise_Sum( int arr[][3] , int rows , int cols){
     // Printing sum Column Wise
     for(int i=0;i<rows;i++){
-        int sum =0;
+        int sum = 
         for(int j=0;j<cols;j++){
             sum = sum + arr[j][i];
         }
