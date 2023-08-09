@@ -16,7 +16,7 @@ int main()
         start++;
         end--;
     }
-
+    // /Printing the array after reversing
     for(int i=0;i<size;i++){
         cout << arr[i] << " ";
     }
